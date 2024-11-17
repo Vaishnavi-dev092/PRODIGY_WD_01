@@ -1,0 +1,129 @@
+/* Body and General Styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bookman Old Style', sans-serif;
+    background: #0f0b0b;
+    color: #000000; /* Black font */
+    scroll-behavior: smooth;
+    text-align: center; /* Centering all content */
+  }
+  
+  h1 {
+    font-size: 4rem;
+    font-family: 'Bookman Old Style', serif;
+    color: #000000; /* Golden color for headings */
+  }
+  
+  p, blockquote {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    color: #000000; /* Black font */
+    max-width: 850px;
+    margin: 0 auto;
+  }
+  
+  .poem-line {
+    font-style: italic;
+    color: #ffffff; /* Golden */
+    margin: 10px 0;
+  }
+  
+  blockquote {
+    font-size: 1.5rem;
+    margin: 30px 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-left: 4px solid #000000;
+    text-align: center;
+  }
+  
+  /* Section Styling */
+  .section {
+    padding: 80px 30px;
+    background: linear-gradient(135deg, #10071e, #a08ca8); /* Deep Purple Gradient */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Hero Section */
+  #hero {
+    background: linear-gradient(135deg, #411540, #cea9cb);
+    padding: 150px 20px;
+    text-align: center;
+  }
+  
+  #hero .hero-content h1 {
+    font-size: 5rem;
+    color: #000000;
+  }
+  
+  #hero .hero-content p {
+    font-size: 1.6rem;
+    color: #e0e0e0;
+  }
+  
+  /* Navigation Styles */
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #e7cdf2;
+    padding: 15px 0;
+    z-index: 1000;
+  }
+  
+  #navbar ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  #navbar ul li {
+    margin: 0 30px;
+  }
+  
+  #navbar ul li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  #navbar ul li a:hover {
+    color: #000000;
+    transform: scale(1.1);
+  }
+  
+  /* Email Form */
+  #email-form input {
+    padding: 15px;
+    font-size: 1.3rem;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  #email-form button {
+    background-color: #000000;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #email-form button:hover {
+    background-color: #f7941d;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #f1dbfa;
+    padding: 20px;
+    text-align: center;
+  }
+  
